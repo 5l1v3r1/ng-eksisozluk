@@ -3,3 +3,69 @@
         height: 60px;
         background-color: tomato;
 }
+
+.navbar .logo{
+        margin-top: 10px;
+        margin-left: 20px;
+        float: left;
+}
+
+.navbar .input-search{
+        height: 30px;
+        width: 100%;
+        border: none;
+        padding-left: 6px;
+}
+
+.navbar .input-search:focus{
+        outline:none;
+}
+
+.input-search-container{
+        float: left;
+        margin-top: 14px;
+        margin-left: 20px;
+        width: calc(100% - 1000px);
+        min-width: 300px;
+}
+
+.navbar .input-search-container .auto-complete{
+        background-color: #FFE5E1;
+        padding-left: 6px;
+        width: calc(100% - 2px);
+        border: solid 1px #DADADA;
+        margin-top: 3px;
+        height: 150px;
+        display: none;
+}
+
+.navbar .menu{
+        display: none;
+}
+
+@media only screen and (max-width: 500px) {
+        .navbar .logo{
+                display: none;
+        }
+
+        .navbar .input-search{
+                height: 30px;
+                width: 100%;
+                border: none;
+        }
+        .input-search-container{
+                float: left;
+                margin-top: 14px;
+                margin-left: 60px;
+                margin-right: 20px;
+                width: calc(100% - 80px);
+                min-width: 30px;
+        }
+
+        .navbar .menu{
+                display: block;
+                position: absolute;
+                top:6px;
+                left: 6px;
+        }
+    }
