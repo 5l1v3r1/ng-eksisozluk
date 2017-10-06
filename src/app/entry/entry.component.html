@@ -1,0 +1,7 @@
+<ul class="title-list">
+        <li *ngFor="let item of Entries" class="Entry">
+                {{ item.Content }}
+                <div class="author"><span class="date">{{item.Created}} </span>{{item.Author.Nick}}</div>
+        </li>
+
+</ul>

@@ -1,0 +1,40 @@
+ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+}
+.Entry{
+
+        padding: 10px 10px 40px 10px;
+        width: 100%;
+        background-color: white;
+        margin: 10px;
+        box-shadow: 0px 0px 5px #E4E4E4;
+        margin-bottom: 10px;
+        background-color: #EBEBEB;
+        color: #3E606F;
+        position: relative;
+}
+
+.Entry .author{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        font-size: 12px;        
+}
+
+.date{
+        color: #B8B8B8;
+}
+
+@media only screen and (max-width: 500px) {
+
+
+        .Entry{
+                width: calc(100% - 40px);
+                margin-bottom: 5px;
+                
+        }
+
+
+    }
