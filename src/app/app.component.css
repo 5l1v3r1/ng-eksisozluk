@@ -33,6 +33,11 @@
         
 }
 
+.side-bar .tabs li:focus{
+        outline: none;
+        
+}
+
 
 
 /* ENTRY-BOX */
