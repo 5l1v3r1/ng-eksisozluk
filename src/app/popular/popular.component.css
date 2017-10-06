@@ -1,0 +1,28 @@
+.title-list{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+}
+
+.title-list li{
+        background-color: #3E606F;
+        padding: 10px;
+        color: white;
+        border-bottom: 1px solid #91AA9D;
+        
+}
+
+.title-list li:last-child{
+        border-bottom: none;
+}
+
+.title-list li:first-child{
+        padding-top: 50px;
+}
+
+
+.title-list li:hover{
+        background-color: #193441;
+        cursor: pointer;
+        transition: 200ms;
+}
